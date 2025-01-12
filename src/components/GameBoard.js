@@ -1,10 +1,9 @@
 import React from 'react';
 import useGameLogic from '../hooks/useGameLogic';
-import Leaderboard from './Leaderboard';
-import Timer from './Timer';
+
 
 const GameBoard = ({ playerName, gameMode }) => {
-  const { board, isXTurn, gameStatus, handleClick, timer } = useGameLogic();
+  const { board, handleClick } = useGameLogic();
 
   return (
     <div className="flex flex-col md:flex-row items-center justify-center w-full p-4 space-x-8">
@@ -27,11 +26,6 @@ const GameBoard = ({ playerName, gameMode }) => {
         ))}
       </div>
 
-      {/* Leaderboard and Timer */}
-      <div className="leaderboard w-full md:w-1/3 p-4 space-y-6">
-        <Leaderboard gameStatus={gameStatus} />
-        <Timer timer={timer} />
-      </div>
     </div>
   );
 };
