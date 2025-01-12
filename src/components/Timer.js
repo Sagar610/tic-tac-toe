@@ -1,7 +1,7 @@
-const Timer = ({ timeLeft }) => {
+const Timer = ({ timer }) => {
     return (
-      <div className="timer p-4 text-center">
-        <p className="text-xl">Time Left: {timeLeft} seconds</p>
+      <div className="timer p-4 bg-gray-900 rounded-lg shadow-lg text-white">
+        <p className="text-xl text-center">Time Left: {timer}s</p>
       </div>
     );
   };
