@@ -88,11 +88,3 @@ If you'd like to contribute to the project, feel free to fork the repository and
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-### How to Use
-
-- This `README.md` file provides a comprehensive description of the project, its features, and setup instructions.
-- Replace the placeholder for the screenshot with an actual screenshot of the game or any image you prefer to showcase the UI.
-
-Let me know if you need further adjustments or additions!
