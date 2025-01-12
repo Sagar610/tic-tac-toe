@@ -14,12 +14,12 @@ const GameBoard = ({ playerName, gameMode }) => {
           <div
             key={index}
             onClick={() => handleClick(index)}
-            className={`w-1/3 h-32 flex items-center justify-center text-4xl font-bold cursor-pointer transition-all duration-200 ease-in-out transform ${
+            className={`w-1/3 h-40 flex items-center justify-center text-8xl font-bold cursor-pointer transition-all duration-200 ease-in-out transform ${
               value === 'X'
                 ? 'text-red-600 hover:scale-110'
                 : value === 'O'
                 ? 'text-blue-600 hover:scale-110'
-                : 'text-white hover:bg-gray-600'
+                : 'text-white hover:bg-gray-500'
             } border-2 border-white rounded-lg`}
           >
             {value}

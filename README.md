@@ -1,6 +1,3 @@
-Here’s a detailed `README.md` file for your GitHub repository that covers all the features, along with your personal details, project information, and links.
-
-```markdown
 # Tic-Tac-Toe Game
 
 A web-based Tic-Tac-Toe game built using React.js and Tailwind CSS. This game allows you to play against a bot or with a friend. It includes features like a leaderboard, timer, and game difficulty settings when playing against the bot.
